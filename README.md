@@ -2,23 +2,23 @@
 
 Code in Java
 Reads the following file: 
-# example input for the find availability problem
+// example input for the find availability problem
 
-# company work hours
+//company work hours
 0,8,8,8,8,8,0
 
-# employees
+// employees
 1,Mark Virtue
 2,Anne Prins
 
-# mark's availability
+// mark's availability
 1,"01/01/2015","12/31/2015",[0,8,8,4,10,10,0]
 1,"01/01/2016",null,[0,8,8,8,8,8,0]
 
-# anne's availability
+// anne's availability
 2,"03/16/2016","06/16/2016",[0,8,8,8,8,0,0]
 
-# find availability for user and dates
+// find availability for user and dates
 1,"12/16/2015","01/15/2016"
 
 Assure that the output is:
